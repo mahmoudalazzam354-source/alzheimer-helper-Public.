@@ -1,7 +1,8 @@
 workflows:
   android-test-apk:
     name: مساعد الزهايمر - Android test APK
-    max_build_duration: 60instance_type: mac_mini_m2
+    instance_type: mac_mini_m2
+    max_build_duration: 60
     environment:
       flutter: stable
     scripts:
